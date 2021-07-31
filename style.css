@@ -1,3 +1,6 @@
+.body__images {
+	display: grid;
+}
 .heart {
 	position: fixed;
 	top: 1vh;
@@ -9,5 +12,19 @@
 @keyframes heartrain {
 	to {
 		transform: translateY(105vh);
+	}
+}
+
+@media (min-width: 576px) {
+	/* .card {
+		width: 100% !important;
+	} */
+	element.style {
+		width: 100% !important;
+	}
+
+	.col-sm {
+		padding-left: none !important;
+		padding-right: none !important;
 	}
 }
