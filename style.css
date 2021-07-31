@@ -4,8 +4,12 @@ body {
 	font-family: "Loved by the King", cursive !important;
 	background-color: #f38cab !important;
 	color: #e14e7d !important;
+	width: 100%;
 }
 
+/* .audio__player {
+	width: 50%;
+} */
 .col-sm {
 	width: 100%;
 	padding-left: 0 !important;
@@ -27,7 +31,10 @@ body {
 }
 
 @media (min-width: 876px) {
-	/* .card {
+	.card {
 		width: 100% !important;
-	} */
+	}
+}
+element.style {
+	width: 100% !important;
 }
