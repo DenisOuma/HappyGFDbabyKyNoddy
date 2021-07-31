@@ -5,10 +5,9 @@ body {
 	background-color: #f38cab !important;
 	color: #e14e7d !important;
 }
-.body__images {
-	display: grid;
-}
+
 .col-sm {
+	width: 100%;
 	padding-left: 0 !important;
 	padding-right: 0 !important;
 	margin-top: 20px;
@@ -31,7 +30,4 @@ body {
 	/* .card {
 		width: 100% !important;
 	} */
-	element.style {
-		width: 100% !important;
-	}
 }
